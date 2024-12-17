@@ -1,0 +1,1611 @@
+time:2024-12-17T01:20:02.534+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T01:20:02.534+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T01:20:02.535+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T01:20:02.535+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T01:20:02.541+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T01:20:02.597+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       43  0.02s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     42  0.02s             0           0                                                   0
+================================================================================
+time:2024-12-17T01:20:32.715+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py                           1           0  0.29s           2024-12-17T01:20:02                      45
+/opt/airflow/dags/error_dag.py                             1           0  0.29s           2024-12-17T01:20:02                      45
+================================================================================
+time:2024-12-17T01:21:03.196+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     58  0.01s             1           0  0.06s           2024-12-17T01:20:33                      12
+/opt/airflow/dags/error_dag.py       59  0.00s             1           0  0.05s           2024-12-17T01:20:33                      12
+================================================================================
+time:2024-12-17T01:21:33.444+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     66  0.01s             1           0  0.07s           2024-12-17T01:21:03                      12
+/opt/airflow/dags/error_dag.py       67  0.00s             1           0  0.06s           2024-12-17T01:21:03                      12
+================================================================================
+time:2024-12-17T01:22:03.632+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     74  0.01s             1           0  0.08s           2024-12-17T01:21:33                      12
+/opt/airflow/dags/error_dag.py       75  0.00s             1           0  0.07s           2024-12-17T01:21:33                      12
+================================================================================
+time:2024-12-17T01:22:33.828+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     82  0.01s             1           0  0.08s           2024-12-17T01:22:03                      12
+/opt/airflow/dags/error_dag.py       83  0.00s             1           0  0.08s           2024-12-17T01:22:03                      12
+================================================================================
+time:2024-12-17T01:23:04.055+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     96  0.01s             1           0  0.08s           2024-12-17T01:22:33                      12
+/opt/airflow/dags/error_dag.py       97  0.00s             1           0  0.07s           2024-12-17T01:22:33                      12
+================================================================================
+time:2024-12-17T01:23:34.264+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    104  0.01s             1           0  0.05s           2024-12-17T01:23:04                      12
+/opt/airflow/dags/error_dag.py      105  0.00s             1           0  0.05s           2024-12-17T01:23:04                      12
+================================================================================
+time:2024-12-17T01:24:04.437+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    111  0.01s             1           0  0.07s           2024-12-17T01:23:34                      12
+/opt/airflow/dags/error_dag.py      112  0.00s             1           0  0.06s           2024-12-17T01:23:34                      12
+================================================================================
+time:2024-12-17T01:24:34.676+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    119  0.01s             1           0  0.07s           2024-12-17T01:24:04                      12
+/opt/airflow/dags/error_dag.py      120  0.00s             1           0  0.07s           2024-12-17T01:24:04                      12
+================================================================================
+time:2024-12-17T01:25:02.837+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T01:25:02.842+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T01:25:04.870+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    127  0.01s             1           0  0.05s           2024-12-17T01:24:34                      12
+/opt/airflow/dags/error_dag.py      128  0.00s             1           0  0.04s           2024-12-17T01:24:34                      12
+================================================================================
+time:2024-12-17T01:25:35.132+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    135  0.01s             1           0  0.07s           2024-12-17T01:25:04                      12
+/opt/airflow/dags/error_dag.py      136  0.00s             1           0  0.06s           2024-12-17T01:25:04                      12
+================================================================================
+time:2024-12-17T01:26:05.380+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    143  0.01s             1           0  0.07s           2024-12-17T01:25:35                      12
+/opt/airflow/dags/error_dag.py      144  0.00s             1           0  0.07s           2024-12-17T01:25:35                      12
+================================================================================
+time:2024-12-17T01:26:35.608+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    151  0.01s             1           0  0.06s           2024-12-17T01:26:05                      12
+/opt/airflow/dags/error_dag.py      152  0.00s             1           0  0.05s           2024-12-17T01:26:05                      12
+================================================================================
+time:2024-12-17T01:27:05.834+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    159  0.01s             1           0  0.11s           2024-12-17T01:26:35                      12
+/opt/airflow/dags/error_dag.py      160  0.00s             1           0  0.06s           2024-12-17T01:26:35                      12
+================================================================================
+time:2024-12-17T01:27:36.003+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    171  0.01s             1           0  0.06s           2024-12-17T01:27:05                      12
+/opt/airflow/dags/error_dag.py      172  0.00s             1           0  0.06s           2024-12-17T01:27:05                      12
+================================================================================
+time:2024-12-17T01:28:06.246+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    179  0.01s             1           0  0.07s           2024-12-17T01:27:36                      12
+/opt/airflow/dags/error_dag.py      180  0.00s             1           0  0.06s           2024-12-17T01:27:36                      12
+================================================================================
+time:2024-12-17T01:28:36.402+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    187  0.01s             1           0  0.06s           2024-12-17T01:28:06                      12
+/opt/airflow/dags/error_dag.py      188  0.00s             1           0  0.05s           2024-12-17T01:28:06                      12
+================================================================================
+time:2024-12-17T01:29:06.638+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/error_dag.py      196  0.00s             1           0  0.06s           2024-12-17T01:28:36                      12
+/opt/airflow/dags/success_dag.py    195  0.01s             1           0  0.06s           2024-12-17T01:28:36                      12
+================================================================================
+time:2024-12-17T01:29:36.871+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    203  0.01s             1           0  0.05s           2024-12-17T01:29:06                      12
+/opt/airflow/dags/error_dag.py      204  0.00s             1           0  0.04s           2024-12-17T01:29:06                      12
+================================================================================
+time:2024-12-17T01:30:03.074+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T01:30:03.077+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T01:30:07.112+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    211  0.01s             1           0  0.06s           2024-12-17T01:29:36                      12
+/opt/airflow/dags/error_dag.py      212  0.00s             1           0  0.05s           2024-12-17T01:29:36                      12
+================================================================================
+time:2024-12-17T01:30:37.347+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/error_dag.py      220  0.00s             1           0  0.07s           2024-12-17T01:30:07                      12
+/opt/airflow/dags/success_dag.py    219  0.01s             1           0  0.06s           2024-12-17T01:30:07                      12
+================================================================================
+time:2024-12-17T01:31:07.542+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    227  0.01s             1           0  0.05s           2024-12-17T01:30:37                      12
+/opt/airflow/dags/error_dag.py      228  0.00s             1           0  0.05s           2024-12-17T01:30:37                      12
+================================================================================
+time:2024-12-17T01:31:37.682+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    235  0.01s             1           0  0.10s           2024-12-17T01:31:07                      12
+/opt/airflow/dags/error_dag.py      236  0.00s             1           0  0.10s           2024-12-17T01:31:07                      12
+================================================================================
+time:2024-12-17T01:32:07.929+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    243  0.01s             1           0  0.06s           2024-12-17T01:31:37                      12
+/opt/airflow/dags/error_dag.py      244  0.00s             1           0  0.06s           2024-12-17T01:31:37                      12
+================================================================================
+time:2024-12-17T01:32:38.072+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    251  0.00s             1           0  0.07s           2024-12-17T01:32:07                      12
+/opt/airflow/dags/error_dag.py      252  0.00s             1           0  0.06s           2024-12-17T01:32:07                      12
+================================================================================
+time:2024-12-17T01:33:08.306+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    259  0.01s             1           0  0.11s           2024-12-17T01:32:38                      12
+/opt/airflow/dags/error_dag.py      260  0.00s             1           0  0.07s           2024-12-17T01:32:38                      12
+================================================================================
+time:2024-12-17T01:33:38.452+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    267  0.01s             1           0  0.05s           2024-12-17T01:33:08                      12
+/opt/airflow/dags/error_dag.py      268  0.00s             1           0  0.05s           2024-12-17T01:33:08                      12
+================================================================================
+time:2024-12-17T01:34:09.179+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/error_dag.py      276  0.01s             1           0  0.60s           2024-12-17T01:33:39                      12
+/opt/airflow/dags/success_dag.py    275  0.01s             1           0  0.57s           2024-12-17T01:33:39                      12
+================================================================================
+time:2024-12-17T01:34:39.418+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    283  0.01s             1           0  0.08s           2024-12-17T01:34:09                      12
+/opt/airflow/dags/error_dag.py      284  0.00s             1           0  0.08s           2024-12-17T01:34:09                      12
+================================================================================
+time:2024-12-17T01:34:45.495+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T01:39:22.238+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T01:39:22.238+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T01:39:22.239+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T01:39:22.239+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T01:39:22.243+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T01:39:22.307+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       42  0.02s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     41  0.03s             0           0                                                   0
+================================================================================
+time:2024-12-17T01:39:52.584+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     49  0.01s             1           0  0.15s           2024-12-17T01:39:22                      12
+/opt/airflow/dags/error_dag.py       50  0.00s             1           0  0.14s           2024-12-17T01:39:22                      12
+================================================================================
+time:2024-12-17T01:40:22.839+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     57  0.01s             1           0  0.07s           2024-12-17T01:39:52                      12
+/opt/airflow/dags/error_dag.py       58  0.00s             1           0  0.07s           2024-12-17T01:39:52                      12
+================================================================================
+time:2024-12-17T01:40:45.670+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T01:47:58.283+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T01:47:58.284+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T01:47:58.284+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T01:47:58.284+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T01:47:58.291+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T01:47:58.365+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       42  0.02s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     41  0.03s             0           0                                                   0
+================================================================================
+time:2024-12-17T01:48:28.525+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     49  0.01s             1           0  0.14s           2024-12-17T01:47:58                      12
+/opt/airflow/dags/error_dag.py       50  0.00s             1           0  0.13s           2024-12-17T01:47:58                      12
+================================================================================
+time:2024-12-17T01:48:58.685+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     63  0.01s             1           0  0.07s           2024-12-17T01:48:28                      12
+/opt/airflow/dags/error_dag.py       64  0.00s             1           0  0.06s           2024-12-17T01:48:28                      12
+================================================================================
+time:2024-12-17T01:49:28.942+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     71  0.01s             1           0  0.08s           2024-12-17T01:48:58                      12
+/opt/airflow/dags/error_dag.py       72  0.00s             1           0  0.08s           2024-12-17T01:48:58                      12
+================================================================================
+time:2024-12-17T01:49:59.151+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     79  0.00s             1           0  0.13s           2024-12-17T01:49:29                      12
+/opt/airflow/dags/error_dag.py       80  0.00s             1           0  0.12s           2024-12-17T01:49:29                      12
+================================================================================
+time:2024-12-17T01:50:29.358+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     87  0.01s             1           0  0.06s           2024-12-17T01:49:59                      12
+/opt/airflow/dags/error_dag.py       88  0.00s             1           0  0.06s           2024-12-17T01:49:59                      12
+================================================================================
+time:2024-12-17T01:50:59.568+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     95  0.01s             1           0  0.07s           2024-12-17T01:50:29                      12
+/opt/airflow/dags/error_dag.py       96  0.00s             1           0  0.06s           2024-12-17T01:50:29                      12
+================================================================================
+time:2024-12-17T01:51:29.733+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    103  0.01s             1           0  0.12s           2024-12-17T01:50:59                      12
+/opt/airflow/dags/error_dag.py      104  0.00s             1           0  0.11s           2024-12-17T01:50:59                      12
+================================================================================
+time:2024-12-17T01:51:42.499+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T01:52:36.206+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T01:52:36.207+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T01:52:36.207+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T01:52:36.207+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T01:52:36.212+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T01:52:36.286+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       42  0.02s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     41  0.02s             0           0                                                   0
+================================================================================
+time:2024-12-17T01:53:06.569+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/error_dag.py       55  0.00s             1           0  0.16s           2024-12-17T01:52:36                      12
+/opt/airflow/dags/success_dag.py     54  0.01s             1           0  0.15s           2024-12-17T01:52:36                      12
+================================================================================
+time:2024-12-17T01:53:36.834+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     62  0.01s             1           0  0.08s           2024-12-17T01:53:06                      12
+/opt/airflow/dags/error_dag.py       63  0.00s             1           0  0.07s           2024-12-17T01:53:06                      12
+================================================================================
+time:2024-12-17T01:54:07.044+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     70  0.01s             1           0  0.08s           2024-12-17T01:53:36                      12
+/opt/airflow/dags/error_dag.py       71  0.00s             1           0  0.08s           2024-12-17T01:53:36                      12
+================================================================================
+time:2024-12-17T01:54:13.056+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T01:54:52.641+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T01:54:52.643+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T01:54:52.643+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T01:54:52.643+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T01:54:52.647+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T01:54:52.709+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       42  0.01s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     41  0.02s             0           0                                                   0
+================================================================================
+time:2024-12-17T01:55:22.887+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     49  0.01s             1           0  0.12s           2024-12-17T01:54:52                      12
+/opt/airflow/dags/error_dag.py       50  0.00s             1           0  0.11s           2024-12-17T01:54:52                      12
+================================================================================
+time:2024-12-17T01:55:53.046+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     57  0.00s             1           0  0.06s           2024-12-17T01:55:22                      12
+/opt/airflow/dags/error_dag.py       58  0.00s             1           0  0.05s           2024-12-17T01:55:22                      12
+================================================================================
+time:2024-12-17T01:56:23.269+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     71  0.01s             1           0  0.07s           2024-12-17T01:55:53                      12
+/opt/airflow/dags/error_dag.py       72  0.00s             1           0  0.06s           2024-12-17T01:55:53                      12
+================================================================================
+time:2024-12-17T01:56:53.538+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     79  0.01s             1           0  0.08s           2024-12-17T01:56:23                      12
+/opt/airflow/dags/error_dag.py       80  0.00s             1           0  0.08s           2024-12-17T01:56:23                      12
+================================================================================
+time:2024-12-17T01:57:23.717+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     87  0.01s             1           0  0.05s           2024-12-17T01:56:53                      12
+/opt/airflow/dags/error_dag.py       88  0.00s             1           0  0.05s           2024-12-17T01:56:53                      12
+================================================================================
+time:2024-12-17T01:57:53.975+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     95  0.01s             1           0  0.07s           2024-12-17T01:57:23                      12
+/opt/airflow/dags/error_dag.py       96  0.00s             1           0  0.06s           2024-12-17T01:57:23                      12
+================================================================================
+time:2024-12-17T01:58:24.174+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    103  0.01s             1           0  0.07s           2024-12-17T01:57:54                      12
+/opt/airflow/dags/error_dag.py      104  0.00s             1           0  0.06s           2024-12-17T01:57:54                      12
+================================================================================
+time:2024-12-17T01:58:54.354+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    111  0.01s             1           0  0.06s           2024-12-17T01:58:24                      12
+/opt/airflow/dags/error_dag.py      112  0.00s             1           0  0.06s           2024-12-17T01:58:24                      12
+================================================================================
+time:2024-12-17T01:59:24.534+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    118  0.01s             1           0  0.07s           2024-12-17T01:58:54                      12
+/opt/airflow/dags/error_dag.py      119  0.00s             1           0  0.06s           2024-12-17T01:58:54                      12
+================================================================================
+time:2024-12-17T01:59:28.938+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T02:01:16.538+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T02:01:16.538+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T02:01:16.539+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T02:01:16.539+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T02:01:16.545+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T02:01:16.608+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       43  0.02s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     42  0.02s             0           0                                                   0
+================================================================================
+time:2024-12-17T02:01:46.755+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     51  0.01s             1           0  0.13s           2024-12-17T02:01:16                      12
+/opt/airflow/dags/error_dag.py       52  0.00s             1           0  0.12s           2024-12-17T02:01:16                      12
+================================================================================
+time:2024-12-17T02:02:16.934+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     59  0.01s             1           0  0.08s           2024-12-17T02:01:46                      12
+/opt/airflow/dags/error_dag.py       60  0.00s             1           0  0.07s           2024-12-17T02:01:46                      12
+================================================================================
+time:2024-12-17T02:02:22.113+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T02:03:30.155+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T02:03:30.156+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T02:03:30.156+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T02:03:30.157+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T02:03:30.161+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T02:03:30.227+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       43  0.02s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     42  0.03s             0           0                                                   0
+================================================================================
+time:2024-12-17T02:04:00.388+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     50  0.01s             1           0  0.12s           2024-12-17T02:03:30                      12
+/opt/airflow/dags/error_dag.py       51  0.00s             1           0  0.12s           2024-12-17T02:03:30                      12
+================================================================================
+time:2024-12-17T02:04:30.637+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     64  0.01s             1           0  0.06s           2024-12-17T02:04:00                      12
+/opt/airflow/dags/error_dag.py       65  0.00s             1           0  0.06s           2024-12-17T02:04:00                      12
+================================================================================
+time:2024-12-17T02:05:00.914+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     72  0.01s             1           0  0.10s           2024-12-17T02:04:30                      12
+/opt/airflow/dags/error_dag.py       73  0.00s             1           0  0.09s           2024-12-17T02:04:30                      12
+================================================================================
+time:2024-12-17T02:05:31.097+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     80  0.01s             1           0  0.12s           2024-12-17T02:05:01                      12
+/opt/airflow/dags/error_dag.py       81  0.00s             1           0  0.12s           2024-12-17T02:05:01                      12
+================================================================================
+time:2024-12-17T02:06:01.367+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     88  0.01s             1           0  0.11s           2024-12-17T02:05:31                      12
+/opt/airflow/dags/error_dag.py       89  0.00s             1           0  0.10s           2024-12-17T02:05:31                      12
+================================================================================
+time:2024-12-17T02:06:31.619+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     96  0.01s             1           0  0.08s           2024-12-17T02:06:01                      12
+/opt/airflow/dags/error_dag.py       97  0.00s             1           0  0.07s           2024-12-17T02:06:01                      12
+================================================================================
+time:2024-12-17T02:07:01.789+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    104  0.00s             1           0  0.05s           2024-12-17T02:06:31                      12
+/opt/airflow/dags/error_dag.py      105  0.00s             1           0  0.05s           2024-12-17T02:06:31                      12
+================================================================================
+time:2024-12-17T02:07:32.032+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    112  0.01s             1           0  0.05s           2024-12-17T02:07:01                      12
+/opt/airflow/dags/error_dag.py      113  0.00s             1           0  0.05s           2024-12-17T02:07:01                      12
+================================================================================
+time:2024-12-17T02:08:02.217+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    120  0.01s             1           0  0.08s           2024-12-17T02:07:32                      12
+/opt/airflow/dags/error_dag.py      121  0.00s             1           0  0.07s           2024-12-17T02:07:32                      12
+================================================================================
+time:2024-12-17T02:08:09.525+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T02:09:42.307+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T02:09:42.307+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T02:09:42.308+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T02:09:42.308+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T02:09:42.311+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T02:09:42.358+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       44  0.01s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     43  0.02s             0           0                                                   0
+================================================================================
+time:2024-12-17T02:11:10.313+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T02:11:10.314+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T02:11:10.314+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T02:11:10.314+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T02:11:10.317+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T02:11:10.361+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       43  0.01s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     42  0.02s             0           0                                                   0
+================================================================================
+time:2024-12-17T02:11:40.476+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     50  0.01s             1           0  0.11s           2024-12-17T02:11:10                      12
+/opt/airflow/dags/error_dag.py       51  0.00s             1           0  0.10s           2024-12-17T02:11:10                      12
+================================================================================
+time:2024-12-17T02:12:10.635+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     58  0.01s             1           0  0.06s           2024-12-17T02:11:40                      12
+/opt/airflow/dags/error_dag.py       59  0.00s             1           0  0.05s           2024-12-17T02:11:40                      12
+================================================================================
+time:2024-12-17T02:12:40.856+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     66  0.01s             1           0  0.07s           2024-12-17T02:12:10                      12
+/opt/airflow/dags/error_dag.py       67  0.00s             1           0  0.06s           2024-12-17T02:12:10                      12
+================================================================================
+time:2024-12-17T02:13:11.059+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     74  0.01s             1           0  0.07s           2024-12-17T02:12:40                      12
+/opt/airflow/dags/error_dag.py       75  0.00s             1           0  0.07s           2024-12-17T02:12:40                      12
+================================================================================
+time:2024-12-17T02:13:41.240+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     88  0.01s             1           0  0.11s           2024-12-17T02:13:11                      12
+/opt/airflow/dags/error_dag.py       89  0.00s             1           0  0.10s           2024-12-17T02:13:11                      12
+================================================================================
+time:2024-12-17T02:14:11.462+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     96  0.01s             1           0  0.07s           2024-12-17T02:13:41                      12
+/opt/airflow/dags/error_dag.py       97  0.00s             1           0  0.07s           2024-12-17T02:13:41                      12
+================================================================================
+time:2024-12-17T02:14:18.085+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T02:14:57.611+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T02:14:57.611+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T02:14:57.611+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T02:14:57.612+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T02:14:57.615+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T02:14:57.662+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       43  0.01s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     42  0.02s             0           0                                                   0
+================================================================================
+time:2024-12-17T02:15:27.795+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     50  0.01s             1           0  0.10s           2024-12-17T02:14:57                      12
+/opt/airflow/dags/error_dag.py       51  0.00s             1           0  0.10s           2024-12-17T02:14:57                      12
+================================================================================
+time:2024-12-17T02:15:38.212+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T02:16:17.923+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T02:16:17.923+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T02:16:17.923+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T02:16:17.924+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T02:16:17.926+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T02:16:17.976+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       43  0.01s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     42  0.02s             0           0                                                   0
+================================================================================
+time:2024-12-17T02:16:48.207+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/error_dag.py       51  0.00s             1           0  0.09s           2024-12-17T02:16:18                      12
+/opt/airflow/dags/success_dag.py     50  0.01s             1           0  0.09s           2024-12-17T02:16:18                      12
+================================================================================
+time:2024-12-17T02:17:13.144+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T02:17:50.760+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T02:17:50.760+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T02:17:50.761+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T02:17:50.761+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T02:17:50.764+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T02:17:50.812+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       43  0.01s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     42  0.02s             0           0                                                   0
+================================================================================
+time:2024-12-17T02:18:20.969+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     50  0.00s             1           0  0.10s           2024-12-17T02:17:50                      12
+/opt/airflow/dags/error_dag.py       51  0.00s             1           0  0.10s           2024-12-17T02:17:50                      12
+================================================================================
+time:2024-12-17T02:18:51.125+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     58  0.01s             1           0  0.06s           2024-12-17T02:18:21                      12
+/opt/airflow/dags/error_dag.py       59  0.00s             1           0  0.05s           2024-12-17T02:18:21                      12
+================================================================================
+time:2024-12-17T02:19:21.331+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     66  0.01s             1           0  0.13s           2024-12-17T02:18:51                      12
+/opt/airflow/dags/error_dag.py       67  0.00s             1           0  0.12s           2024-12-17T02:18:51                      12
+================================================================================
+time:2024-12-17T02:19:51.557+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     80  0.01s             1           0  0.07s           2024-12-17T02:19:21                      12
+/opt/airflow/dags/error_dag.py       81  0.00s             1           0  0.07s           2024-12-17T02:19:21                      12
+================================================================================
+time:2024-12-17T02:20:02.202+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T02:20:53.473+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T02:20:53.473+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T02:20:53.473+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T02:20:53.474+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T02:20:53.476+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T02:20:53.515+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       43  0.01s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     42  0.01s             0           0                                                   0
+================================================================================
+time:2024-12-17T02:21:23.656+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     50  0.01s             1           0  0.10s           2024-12-17T02:20:53                      12
+/opt/airflow/dags/error_dag.py       51  0.00s             1           0  0.10s           2024-12-17T02:20:53                      12
+================================================================================
+time:2024-12-17T02:21:53.891+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     64  0.01s             1           0  0.08s           2024-12-17T02:21:23                      12
+/opt/airflow/dags/error_dag.py       65  0.00s             1           0  0.07s           2024-12-17T02:21:23                      12
+================================================================================
+time:2024-12-17T02:22:24.137+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     72  0.01s             1           0  0.10s           2024-12-17T02:21:53                      12
+/opt/airflow/dags/error_dag.py       73  0.00s             1           0  0.09s           2024-12-17T02:21:53                      12
+================================================================================
+time:2024-12-17T02:22:54.287+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     80  0.01s             1           0  0.08s           2024-12-17T02:22:24                      12
+/opt/airflow/dags/error_dag.py       81  0.00s             1           0  0.08s           2024-12-17T02:22:24                      12
+================================================================================
+time:2024-12-17T02:23:24.521+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     88  0.01s             1           0  0.07s           2024-12-17T02:22:54                      12
+/opt/airflow/dags/error_dag.py       89  0.00s             1           0  0.06s           2024-12-17T02:22:54                      12
+================================================================================
+time:2024-12-17T02:23:54.684+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     96  0.01s             1           0  0.06s           2024-12-17T02:23:24                      12
+/opt/airflow/dags/error_dag.py       97  0.00s             1           0  0.06s           2024-12-17T02:23:24                      12
+================================================================================
+time:2024-12-17T02:24:24.899+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/error_dag.py      105  0.00s             1           0  0.07s           2024-12-17T02:23:54                      12
+/opt/airflow/dags/success_dag.py    104  0.01s             1           0  0.06s           2024-12-17T02:23:54                      12
+================================================================================
+time:2024-12-17T02:24:55.144+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    112  0.01s             1           0  0.06s           2024-12-17T02:24:24                      12
+/opt/airflow/dags/error_dag.py      113  0.00s             1           0  0.06s           2024-12-17T02:24:24                      12
+================================================================================
+time:2024-12-17T02:25:25.371+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    120  0.01s             1           0  0.07s           2024-12-17T02:24:55                      12
+/opt/airflow/dags/error_dag.py      121  0.00s             1           0  0.06s           2024-12-17T02:24:55                      12
+================================================================================
+time:2024-12-17T02:25:53.586+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T02:25:53.589+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T02:25:55.614+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    128  0.01s             1           0  0.06s           2024-12-17T02:25:25                      12
+/opt/airflow/dags/error_dag.py      129  0.00s             1           0  0.05s           2024-12-17T02:25:25                      12
+================================================================================
+time:2024-12-17T02:26:25.834+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    136  0.01s             1           0  0.07s           2024-12-17T02:25:55                      12
+/opt/airflow/dags/error_dag.py      137  0.00s             1           0  0.06s           2024-12-17T02:25:55                      12
+================================================================================
+time:2024-12-17T02:26:56.054+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    144  0.00s             1           0  0.07s           2024-12-17T02:26:25                      12
+/opt/airflow/dags/error_dag.py      145  0.00s             1           0  0.07s           2024-12-17T02:26:25                      12
+================================================================================
+time:2024-12-17T02:27:26.333+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    152  0.01s             1           0  0.06s           2024-12-17T02:26:56                      12
+/opt/airflow/dags/error_dag.py      153  0.00s             1           0  0.05s           2024-12-17T02:26:56                      12
+================================================================================
+time:2024-12-17T02:27:56.560+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    160  0.01s             1           0  0.06s           2024-12-17T02:27:26                      12
+/opt/airflow/dags/error_dag.py      161  0.00s             1           0  0.06s           2024-12-17T02:27:26                      12
+================================================================================
+time:2024-12-17T02:28:26.768+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    168  0.01s             1           0  0.07s           2024-12-17T02:27:56                      12
+/opt/airflow/dags/error_dag.py      169  0.00s             1           0  0.06s           2024-12-17T02:27:56                      12
+================================================================================
+time:2024-12-17T02:28:57.021+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/error_dag.py      177  0.00s             1           0  0.05s           2024-12-17T02:28:26                      12
+/opt/airflow/dags/success_dag.py    176  0.00s             1           0  0.05s           2024-12-17T02:28:26                      12
+================================================================================
+time:2024-12-17T02:29:27.195+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    184  0.01s             1           0  0.06s           2024-12-17T02:28:57                      12
+/opt/airflow/dags/error_dag.py      185  0.00s             1           0  0.05s           2024-12-17T02:28:57                      12
+================================================================================
+time:2024-12-17T02:29:57.438+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    192  0.01s             1           0  0.06s           2024-12-17T02:29:27                      12
+/opt/airflow/dags/error_dag.py      193  0.00s             1           0  0.05s           2024-12-17T02:29:27                      12
+================================================================================
+time:2024-12-17T02:30:27.676+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    200  0.01s             1           0  0.05s           2024-12-17T02:29:57                      12
+/opt/airflow/dags/error_dag.py      201  0.00s             1           0  0.04s           2024-12-17T02:29:57                      12
+================================================================================
+time:2024-12-17T02:30:53.891+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T02:30:53.896+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T02:30:57.946+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    208  0.01s             1           0  0.06s           2024-12-17T02:30:27                      12
+/opt/airflow/dags/error_dag.py      209  0.00s             1           0  0.05s           2024-12-17T02:30:27                      12
+================================================================================
+time:2024-12-17T02:31:28.140+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    216  0.01s             1           0  0.07s           2024-12-17T02:30:58                      12
+/opt/airflow/dags/error_dag.py      217  0.00s             1           0  0.06s           2024-12-17T02:30:58                      12
+================================================================================
+time:2024-12-17T02:31:58.429+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    224  0.00s             1           0  0.06s           2024-12-17T02:31:28                      12
+/opt/airflow/dags/error_dag.py      225  0.00s             1           0  0.05s           2024-12-17T02:31:28                      12
+================================================================================
+time:2024-12-17T02:32:28.705+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    232  0.01s             1           0  0.05s           2024-12-17T02:31:58                      12
+/opt/airflow/dags/error_dag.py      233  0.00s             1           0  0.05s           2024-12-17T02:31:58                      12
+================================================================================
+time:2024-12-17T02:32:58.982+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    240  0.01s             1           0  0.07s           2024-12-17T02:32:28                      12
+/opt/airflow/dags/error_dag.py      241  0.00s             1           0  0.07s           2024-12-17T02:32:28                      12
+================================================================================
+time:2024-12-17T02:33:29.209+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    248  0.01s             1           0  0.07s           2024-12-17T02:32:59                      12
+/opt/airflow/dags/error_dag.py      249  0.00s             1           0  0.06s           2024-12-17T02:32:59                      12
+================================================================================
+time:2024-12-17T02:33:59.432+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    256  0.01s             1           0  0.08s           2024-12-17T02:33:29                      12
+/opt/airflow/dags/error_dag.py      257  0.00s             1           0  0.07s           2024-12-17T02:33:29                      12
+================================================================================
+time:2024-12-17T02:34:29.625+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    264  0.01s             1           0  0.09s           2024-12-17T02:33:59                      12
+/opt/airflow/dags/error_dag.py      265  0.00s             1           0  0.08s           2024-12-17T02:33:59                      12
+================================================================================
+time:2024-12-17T02:34:59.962+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    272  0.01s             1           0  0.12s           2024-12-17T02:34:29                      12
+/opt/airflow/dags/error_dag.py      273  0.00s             1           0  0.11s           2024-12-17T02:34:29                      12
+================================================================================
+time:2024-12-17T02:35:30.145+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    280  0.01s             1           0  0.07s           2024-12-17T02:35:00                      12
+/opt/airflow/dags/error_dag.py      281  0.00s             1           0  0.07s           2024-12-17T02:35:00                      12
+================================================================================
+time:2024-12-17T02:35:54.379+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T02:35:54.383+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T02:36:00.430+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    288  0.01s             1           0  0.07s           2024-12-17T02:35:30                      12
+/opt/airflow/dags/error_dag.py      289  0.00s             1           0  0.07s           2024-12-17T02:35:30                      12
+================================================================================
+time:2024-12-17T02:36:30.703+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    296  0.01s             1           0  0.07s           2024-12-17T02:36:00                      12
+/opt/airflow/dags/error_dag.py      297  0.00s             1           0  0.07s           2024-12-17T02:36:00                      12
+================================================================================
+time:2024-12-17T02:37:00.898+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    304  0.01s             1           0  0.07s           2024-12-17T02:36:30                      12
+/opt/airflow/dags/error_dag.py      305  0.00s             1           0  0.06s           2024-12-17T02:36:30                      12
+================================================================================
+time:2024-12-17T02:37:31.086+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    312  0.01s             1           0  0.07s           2024-12-17T02:37:00                      12
+/opt/airflow/dags/error_dag.py      313  0.00s             1           0  0.07s           2024-12-17T02:37:00                      12
+================================================================================
+time:2024-12-17T02:38:01.382+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    320  0.01s             1           0  0.12s           2024-12-17T02:37:31                      12
+/opt/airflow/dags/error_dag.py      321  0.00s             1           0  0.11s           2024-12-17T02:37:31                      12
+================================================================================
+time:2024-12-17T02:38:31.654+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    328  0.00s             1           0  0.06s           2024-12-17T02:38:01                      12
+/opt/airflow/dags/error_dag.py      329  0.00s             1           0  0.05s           2024-12-17T02:38:01                      12
+================================================================================
+time:2024-12-17T02:39:01.853+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    336  0.01s             1           0  0.06s           2024-12-17T02:38:31                      12
+/opt/airflow/dags/error_dag.py      337  0.00s             1           0  0.06s           2024-12-17T02:38:31                      12
+================================================================================
+time:2024-12-17T02:39:32.235+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    344  0.00s             1           0  0.13s           2024-12-17T02:39:01                      12
+/opt/airflow/dags/error_dag.py      345  0.00s             1           0  0.12s           2024-12-17T02:39:01                      12
+================================================================================
+time:2024-12-17T02:40:02.554+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    352  0.01s             1           0  0.06s           2024-12-17T02:39:32                      12
+/opt/airflow/dags/error_dag.py      353  0.00s             1           0  0.05s           2024-12-17T02:39:32                      12
+================================================================================
+time:2024-12-17T02:40:32.792+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    360  0.01s             1           0  0.06s           2024-12-17T02:40:02                      12
+/opt/airflow/dags/error_dag.py      361  0.00s             1           0  0.05s           2024-12-17T02:40:02                      12
+================================================================================
+time:2024-12-17T03:15:44.447+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T03:15:44.450+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T03:16:06.758+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/error_dag.py                             1           0  0.34s           2024-12-17T03:15:44                      12
+/opt/airflow/dags/success_dag.py                           1           0  0.34s           2024-12-17T03:15:44                      12
+================================================================================
+time:2024-12-17T03:16:37.011+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py                           1           0  0.08s           2024-12-17T03:16:14                      12
+/opt/airflow/dags/error_dag.py                             1           0  0.05s           2024-12-17T03:16:14                      12
+================================================================================
+time:2024-12-17T03:17:07.201+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py                           1           0  0.07s           2024-12-17T03:16:45                      12
+/opt/airflow/dags/error_dag.py                             1           0  0.07s           2024-12-17T03:16:45                      12
+================================================================================
+time:2024-12-17T03:17:11.120+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T03:17:59.201+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T03:17:59.202+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T03:17:59.202+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T03:17:59.203+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T03:17:59.206+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T03:17:59.242+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       43  0.01s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     42  0.01s             0           0                                                   0
+================================================================================
+time:2024-12-17T03:18:29.495+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/error_dag.py       57  0.00s             1           0  0.08s           2024-12-17T03:17:59                      12
+/opt/airflow/dags/success_dag.py     56  0.01s             1           0  0.08s           2024-12-17T03:17:59                      12
+================================================================================
+time:2024-12-17T03:18:59.641+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     64  0.01s             1           0  0.05s           2024-12-17T03:18:29                      12
+/opt/airflow/dags/error_dag.py       65  0.00s             1           0  0.05s           2024-12-17T03:18:29                      12
+================================================================================
+time:2024-12-17T03:19:29.806+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     72  0.01s             1           0  0.12s           2024-12-17T03:18:59                      12
+/opt/airflow/dags/error_dag.py       73  0.00s             1           0  0.11s           2024-12-17T03:18:59                      12
+================================================================================
+time:2024-12-17T03:19:59.968+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     80  0.01s             1           0  0.07s           2024-12-17T03:19:29                      12
+/opt/airflow/dags/error_dag.py       81  0.00s             1           0  0.07s           2024-12-17T03:19:29                      12
+================================================================================
+time:2024-12-17T03:20:30.210+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     88  0.01s             1           0  0.07s           2024-12-17T03:20:00                      12
+/opt/airflow/dags/error_dag.py       89  0.00s             1           0  0.06s           2024-12-17T03:20:00                      12
+================================================================================
+time:2024-12-17T03:21:00.485+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     96  0.01s             1           0  0.12s           2024-12-17T03:20:30                      12
+/opt/airflow/dags/error_dag.py       97  0.00s             1           0  0.12s           2024-12-17T03:20:30                      12
+================================================================================
+time:2024-12-17T03:21:30.659+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    104  0.00s             1           0  0.09s           2024-12-17T03:21:00                      12
+/opt/airflow/dags/error_dag.py      105  0.00s             1           0  0.09s           2024-12-17T03:21:00                      12
+================================================================================
+time:2024-12-17T03:22:00.848+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    112  0.01s             1           0  0.06s           2024-12-17T03:21:30                      12
+/opt/airflow/dags/error_dag.py      113  0.00s             1           0  0.05s           2024-12-17T03:21:30                      12
+================================================================================
+time:2024-12-17T03:22:31.033+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    120  0.01s             1           0  0.07s           2024-12-17T03:22:00                      12
+/opt/airflow/dags/error_dag.py      121  0.00s             1           0  0.06s           2024-12-17T03:22:00                      12
+================================================================================
+time:2024-12-17T03:23:00.203+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T03:23:00.208+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T03:23:01.226+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    128  0.01s             1           0  0.06s           2024-12-17T03:22:31                      12
+/opt/airflow/dags/error_dag.py      129  0.00s             1           0  0.05s           2024-12-17T03:22:31                      12
+================================================================================
+time:2024-12-17T03:23:31.385+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    136  0.01s             1           0  0.07s           2024-12-17T03:23:01                      12
+/opt/airflow/dags/error_dag.py      137  0.00s             1           0  0.07s           2024-12-17T03:23:01                      12
+================================================================================
+time:2024-12-17T03:24:01.645+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    143  0.01s             1           0  0.11s           2024-12-17T03:23:31                      12
+/opt/airflow/dags/error_dag.py      144  0.00s             1           0  0.11s           2024-12-17T03:23:31                      12
+================================================================================
+time:2024-12-17T03:24:31.817+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    151  0.01s             1           0  0.11s           2024-12-17T03:24:01                      12
+/opt/airflow/dags/error_dag.py      152  0.00s             1           0  0.11s           2024-12-17T03:24:01                      12
+================================================================================
+time:2024-12-17T03:25:01.978+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    159  0.01s             1           0  0.08s           2024-12-17T03:24:31                      12
+/opt/airflow/dags/error_dag.py      160  0.00s             1           0  0.07s           2024-12-17T03:24:31                      12
+================================================================================
+time:2024-12-17T03:25:30.013+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T03:27:57.959+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T03:27:57.959+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T03:27:57.959+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T03:27:57.959+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T03:27:57.965+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T03:27:58.045+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       43  0.01s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     42  0.02s             0           0                                                   0
+================================================================================
+time:2024-12-17T03:28:28.182+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     49  0.01s             1           0  0.10s           2024-12-17T03:27:58                      12
+/opt/airflow/dags/error_dag.py       50  0.00s             1           0  0.09s           2024-12-17T03:27:58                      12
+================================================================================
+time:2024-12-17T03:28:58.401+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     57  0.01s             1           0  0.06s           2024-12-17T03:28:28                      12
+/opt/airflow/dags/error_dag.py       58  0.00s             1           0  0.06s           2024-12-17T03:28:28                      12
+================================================================================
+time:2024-12-17T03:29:28.585+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     65  0.02s             1           0  0.10s           2024-12-17T03:28:58                      12
+/opt/airflow/dags/error_dag.py       66  0.00s             1           0  0.09s           2024-12-17T03:28:58                      12
+================================================================================
+time:2024-12-17T03:29:58.839+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     73  0.01s             1           0  0.10s           2024-12-17T03:29:28                      12
+/opt/airflow/dags/error_dag.py       74  0.00s             1           0  0.07s           2024-12-17T03:29:28                      12
+================================================================================
+time:2024-12-17T03:30:26.495+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T03:31:09.119+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T03:31:09.121+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T03:31:09.122+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T03:31:09.123+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T03:31:09.126+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T03:31:09.179+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       43  0.01s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     42  0.02s             0           0                                                   0
+================================================================================
+time:2024-12-17T03:31:39.453+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     50  0.01s             1           0  0.11s           2024-12-17T03:31:09                      12
+/opt/airflow/dags/error_dag.py       51  0.00s             1           0  0.10s           2024-12-17T03:31:09                      12
+================================================================================
+time:2024-12-17T03:32:09.623+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     58  0.01s             1           0  0.08s           2024-12-17T03:31:39                      12
+/opt/airflow/dags/error_dag.py       59  0.00s             1           0  0.07s           2024-12-17T03:31:39                      12
+================================================================================
+time:2024-12-17T03:32:39.872+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     72  0.01s             1           0  0.09s           2024-12-17T03:32:09                      12
+/opt/airflow/dags/error_dag.py       73  0.00s             1           0  0.08s           2024-12-17T03:32:09                      12
+================================================================================
+time:2024-12-17T03:33:10.012+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     80  0.01s             1           0  0.08s           2024-12-17T03:32:39                      12
+/opt/airflow/dags/error_dag.py       81  0.00s             1           0  0.07s           2024-12-17T03:32:39                      12
+================================================================================
+time:2024-12-17T03:33:40.251+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     88  0.01s             1           0  0.07s           2024-12-17T03:33:10                      12
+/opt/airflow/dags/error_dag.py       89  0.00s             1           0  0.07s           2024-12-17T03:33:10                      12
+================================================================================
+time:2024-12-17T03:34:10.496+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     96  0.01s             1           0  0.09s           2024-12-17T03:33:40                      12
+/opt/airflow/dags/error_dag.py       97  0.00s             1           0  0.09s           2024-12-17T03:33:40                      12
+================================================================================
+time:2024-12-17T03:34:40.785+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    104  0.01s             1           0  0.07s           2024-12-17T03:34:10                      12
+/opt/airflow/dags/error_dag.py      105  0.00s             1           0  0.07s           2024-12-17T03:34:10                      12
+================================================================================
+time:2024-12-17T03:35:10.955+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    112  0.01s             1           0  0.09s           2024-12-17T03:34:40                      12
+/opt/airflow/dags/error_dag.py      113  0.00s             1           0  0.08s           2024-12-17T03:34:40                      12
+================================================================================
+time:2024-12-17T03:35:41.195+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    120  0.01s             1           0  0.08s           2024-12-17T03:35:11                      12
+/opt/airflow/dags/error_dag.py      121  0.00s             1           0  0.08s           2024-12-17T03:35:11                      12
+================================================================================
+time:2024-12-17T03:36:09.357+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T03:36:09.361+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T03:36:11.389+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    128  0.01s             1           0  0.07s           2024-12-17T03:35:41                      12
+/opt/airflow/dags/error_dag.py      129  0.00s             1           0  0.06s           2024-12-17T03:35:41                      12
+================================================================================
+time:2024-12-17T03:36:41.581+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    136  0.01s             1           0  0.06s           2024-12-17T03:36:11                      12
+/opt/airflow/dags/error_dag.py      137  0.00s             1           0  0.06s           2024-12-17T03:36:11                      12
+================================================================================
+time:2024-12-17T03:37:11.777+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py    144  0.01s             1           0  0.07s           2024-12-17T03:36:41                      12
+/opt/airflow/dags/error_dag.py      145  0.00s             1           0  0.07s           2024-12-17T03:36:41                      12
+================================================================================
+time:2024-12-17T03:37:22.438+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15
+time:2024-12-17T03:38:22.010+0000  filename:manager.py:483  level_info:INFO  message:Processing files using up to 2 processes at a time 
+time:2024-12-17T03:38:22.012+0000  filename:manager.py:484  level_info:INFO  message:Process each file at most once every 30 seconds
+time:2024-12-17T03:38:22.012+0000  filename:manager.py:485  level_info:INFO  message:Checking for new files in /opt/airflow/dags every 300 seconds
+time:2024-12-17T03:38:22.012+0000  filename:manager.py:821  level_info:INFO  message:Searching for files in /opt/airflow/dags
+time:2024-12-17T03:38:22.014+0000  filename:manager.py:824  level_info:INFO  message:There are 2 files in /opt/airflow/dags
+time:2024-12-17T03:38:22.051+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/error_dag.py       49  0.01s             0           0                                                   0
+/opt/airflow/dags/success_dag.py     48  0.01s             0           0                                                   0
+================================================================================
+time:2024-12-17T03:38:52.329+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/error_dag.py       57  0.00s             1           0  0.13s           2024-12-17T03:38:22                      12
+/opt/airflow/dags/success_dag.py     56  0.01s             1           0  0.13s           2024-12-17T03:38:22                      12
+================================================================================
+time:2024-12-17T03:39:22.654+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     64  0.01s             1           0  0.11s           2024-12-17T03:38:52                      12
+/opt/airflow/dags/error_dag.py       65  0.00s             1           0  0.10s           2024-12-17T03:38:52                      12
+================================================================================
+time:2024-12-17T03:39:52.893+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     72  0.01s             1           0  0.08s           2024-12-17T03:39:22                      12
+/opt/airflow/dags/error_dag.py       73  0.00s             1           0  0.07s           2024-12-17T03:39:22                      12
+================================================================================
+time:2024-12-17T03:40:23.129+0000  filename:manager.py:997  level_info:INFO  message:
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/success_dag.py     80  0.01s             1           0  0.09s           2024-12-17T03:39:52                      12
+/opt/airflow/dags/error_dag.py       81  0.00s             1           0  0.08s           2024-12-17T03:39:52                      12
+================================================================================
+time:2024-12-17T03:40:49.753+0000  filename:manager.py:465  level_info:INFO  message:Exiting gracefully upon receiving signal 15

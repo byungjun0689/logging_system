@@ -1,0 +1,119 @@
+time:2024-12-17T01:27:30.053+0000  filename:local_task_job_runner.py:123  level_info:INFO  message:::group::Pre task execution logs
+time:2024-12-17T01:27:30.053+0000  filename:local_task_job_runner.py:123  level_info:INFO  message:::group::Pre task execution logs
+time:2024-12-17T01:27:30.060+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: successful_dag.hello_task manual__2024-12-17T01:27:27.815735+00:00 [queued]>
+time:2024-12-17T01:27:30.060+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: successful_dag.hello_task scheduled__2023-01-01T00:00:00+00:00 [queued]>
+time:2024-12-17T01:27:30.065+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: successful_dag.hello_task manual__2024-12-17T01:27:27.815735+00:00 [queued]>
+time:2024-12-17T01:27:30.065+0000  filename:taskinstance.py:2866  level_info:INFO  message:Starting attempt 1 of 2
+time:2024-12-17T01:27:30.065+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: successful_dag.hello_task scheduled__2023-01-01T00:00:00+00:00 [queued]>
+time:2024-12-17T01:27:30.065+0000  filename:taskinstance.py:2866  level_info:INFO  message:Starting attempt 1 of 2
+time:2024-12-17T01:27:30.072+0000  filename:taskinstance.py:2889  level_info:INFO  message:Executing <Task(PythonOperator): hello_task> on 2024-12-17 01:27:27.815735+00:00
+time:2024-12-17T01:27:30.075+0000  filename:standard_task_runner.py:72  level_info:INFO  message:Started process 1245 to run task
+time:2024-12-17T01:27:30.075+0000  filename:taskinstance.py:2889  level_info:INFO  message:Executing <Task(PythonOperator): hello_task> on 2023-01-01 00:00:00+00:00
+time:2024-12-17T01:27:30.077+0000  filename:standard_task_runner.py:104  level_info:INFO  message:Running: ['***', 'tasks', 'run', 'successful_dag', 'hello_task', 'manual__2024-12-17T01:27:27.815735+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/success_dag.py', '--cfg-path', '/tmp/tmp9cyhfbc0']
+time:2024-12-17T01:27:30.078+0000  filename:standard_task_runner.py:105  level_info:INFO  message:Job 3: Subtask hello_task
+time:2024-12-17T01:27:30.078+0000  filename:standard_task_runner.py:72  level_info:INFO  message:Started process 1247 to run task
+time:2024-12-17T01:27:30.081+0000  filename:standard_task_runner.py:104  level_info:INFO  message:Running: ['***', 'tasks', 'run', 'successful_dag', 'hello_task', 'scheduled__2023-01-01T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/success_dag.py', '--cfg-path', '/tmp/tmpuxcmt_ns']
+time:2024-12-17T01:27:30.082+0000  filename:standard_task_runner.py:105  level_info:INFO  message:Job 4: Subtask hello_task
+time:2024-12-17T01:27:30.114+0000  filename:task_command.py:467  level_info:INFO  message:Running <TaskInstance: successful_dag.hello_task manual__2024-12-17T01:27:27.815735+00:00 [running]> on host 217d18321e23
+time:2024-12-17T01:27:30.114+0000  filename:task_command.py:467  level_info:INFO  message:Running <TaskInstance: successful_dag.hello_task scheduled__2023-01-01T00:00:00+00:00 [running]> on host 217d18321e23
+time:2024-12-17T01:27:30.157+0000  filename:taskinstance.py:3132  level_info:INFO  message:Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='successful_dag' AIRFLOW_CTX_TASK_ID='hello_task' AIRFLOW_CTX_EXECUTION_DATE='2023-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-01T00:00:00+00:00'
+time:2024-12-17T01:27:30.158+0000  filename:taskinstance.py:731  level_info:INFO  message:::endgroup::
+time:2024-12-17T01:27:30.159+0000  filename:taskinstance.py:3132  level_info:INFO  message:Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='successful_dag' AIRFLOW_CTX_TASK_ID='hello_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-17T01:27:27.815735+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-17T01:27:27.815735+00:00'
+time:2024-12-17T01:27:30.159+0000  filename:taskinstance.py:731  level_info:INFO  message:::endgroup::
+time:2024-12-17T01:27:30.180+0000  filename:python.py:240  level_info:INFO  message:Done. Returned value was: Hello world!
+time:2024-12-17T01:27:30.181+0000  filename:python.py:240  level_info:INFO  message:Done. Returned value was: Hello world!
+time:2024-12-17T01:27:30.194+0000  filename:taskinstance.py:340  level_info:INFO  message:::group::Post task execution logs
+time:2024-12-17T01:27:30.194+0000  filename:taskinstance.py:352  level_info:INFO  message:Marking task as SUCCESS. dag_id=successful_dag, task_id=hello_task, run_id=manual__2024-12-17T01:27:27.815735+00:00, execution_date=20241217T012727, start_date=20241217T012730, end_date=20241217T012730
+time:2024-12-17T01:27:30.196+0000  filename:taskinstance.py:340  level_info:INFO  message:::group::Post task execution logs
+time:2024-12-17T01:27:30.196+0000  filename:taskinstance.py:352  level_info:INFO  message:Marking task as SUCCESS. dag_id=successful_dag, task_id=hello_task, run_id=scheduled__2023-01-01T00:00:00+00:00, execution_date=20230101T000000, start_date=20241217T012730, end_date=20241217T012730
+time:2024-12-17T01:27:30.213+0000  filename:local_task_job_runner.py:266  level_info:INFO  message:Task exited with return code 0
+time:2024-12-17T01:27:30.221+0000  filename:local_task_job_runner.py:266  level_info:INFO  message:Task exited with return code 0
+time:2024-12-17T01:27:30.222+0000  filename:taskinstance.py:3895  level_info:INFO  message:0 downstream tasks scheduled from follow-on schedule check
+time:2024-12-17T01:27:30.226+0000  filename:local_task_job_runner.py:245  level_info:INFO  message:::endgroup::
+time:2024-12-17T01:27:30.229+0000  filename:taskinstance.py:3895  level_info:INFO  message:0 downstream tasks scheduled from follow-on schedule check
+time:2024-12-17T01:27:30.233+0000  filename:local_task_job_runner.py:245  level_info:INFO  message:::endgroup::
+time:2024-12-17T01:48:00.715+0000  filename:local_task_job_runner.py:123  level_info:INFO  message:::group::Pre task execution logs
+time:2024-12-17T01:48:00.722+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: successful_dag.hello_task manual__2024-12-17T01:44:52.253037+00:00 [queued]>
+time:2024-12-17T01:48:00.726+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: successful_dag.hello_task manual__2024-12-17T01:44:52.253037+00:00 [queued]>
+time:2024-12-17T01:48:00.726+0000  filename:taskinstance.py:2866  level_info:INFO  message:Starting attempt 1 of 2
+time:2024-12-17T01:48:00.734+0000  filename:taskinstance.py:2889  level_info:INFO  message:Executing <Task(PythonOperator): hello_task> on 2024-12-17 01:44:52.253037+00:00
+time:2024-12-17T01:48:00.737+0000  filename:standard_task_runner.py:72  level_info:INFO  message:Started process 63 to run task
+time:2024-12-17T01:48:00.739+0000  filename:standard_task_runner.py:104  level_info:INFO  message:Running: ['***', 'tasks', 'run', 'successful_dag', 'hello_task', 'manual__2024-12-17T01:44:52.253037+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/success_dag.py', '--cfg-path', '/tmp/tmp7l6kfdmw']
+time:2024-12-17T01:48:00.740+0000  filename:standard_task_runner.py:105  level_info:INFO  message:Job 9: Subtask hello_task
+time:2024-12-17T01:48:00.771+0000  filename:task_command.py:467  level_info:INFO  message:Running <TaskInstance: successful_dag.hello_task manual__2024-12-17T01:44:52.253037+00:00 [running]> on host 0e1ecff72b05
+time:2024-12-17T01:48:00.816+0000  filename:taskinstance.py:3132  level_info:INFO  message:Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='successful_dag' AIRFLOW_CTX_TASK_ID='hello_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-17T01:44:52.253037+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-17T01:44:52.253037+00:00'
+time:2024-12-17T01:48:00.816+0000  filename:taskinstance.py:731  level_info:INFO  message:::endgroup::
+time:2024-12-17T01:48:00.834+0000  filename:python.py:240  level_info:INFO  message:Done. Returned value was: Hello world!
+time:2024-12-17T01:48:00.847+0000  filename:taskinstance.py:340  level_info:INFO  message:::group::Post task execution logs
+time:2024-12-17T01:48:00.848+0000  filename:taskinstance.py:352  level_info:INFO  message:Marking task as SUCCESS. dag_id=successful_dag, task_id=hello_task, run_id=manual__2024-12-17T01:44:52.253037+00:00, execution_date=20241217T014452, start_date=20241217T014800, end_date=20241217T014800
+time:2024-12-17T01:48:00.881+0000  filename:local_task_job_runner.py:266  level_info:INFO  message:Task exited with return code 0
+time:2024-12-17T01:48:00.893+0000  filename:taskinstance.py:3895  level_info:INFO  message:0 downstream tasks scheduled from follow-on schedule check
+time:2024-12-17T01:48:00.896+0000  filename:local_task_job_runner.py:245  level_info:INFO  message:::endgroup::
+time:2024-12-17T01:49:56.434+0000  filename:local_task_job_runner.py:123  level_info:INFO  message:::group::Pre task execution logs
+time:2024-12-17T01:49:56.442+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: successful_dag.hello_task manual__2024-12-17T01:49:54.461143+00:00 [queued]>
+time:2024-12-17T01:49:56.446+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: successful_dag.hello_task manual__2024-12-17T01:49:54.461143+00:00 [queued]>
+time:2024-12-17T01:49:56.446+0000  filename:taskinstance.py:2866  level_info:INFO  message:Starting attempt 1 of 2
+time:2024-12-17T01:49:56.457+0000  filename:taskinstance.py:2889  level_info:INFO  message:Executing <Task(PythonOperator): hello_task> on 2024-12-17 01:49:54.461143+00:00
+time:2024-12-17T01:49:56.460+0000  filename:standard_task_runner.py:72  level_info:INFO  message:Started process 94 to run task
+time:2024-12-17T01:49:56.463+0000  filename:standard_task_runner.py:104  level_info:INFO  message:Running: ['***', 'tasks', 'run', 'successful_dag', 'hello_task', 'manual__2024-12-17T01:49:54.461143+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/success_dag.py', '--cfg-path', '/tmp/tmpmud1ertz']
+time:2024-12-17T01:49:56.464+0000  filename:standard_task_runner.py:105  level_info:INFO  message:Job 10: Subtask hello_task
+time:2024-12-17T01:49:56.491+0000  filename:task_command.py:467  level_info:INFO  message:Running <TaskInstance: successful_dag.hello_task manual__2024-12-17T01:49:54.461143+00:00 [running]> on host 0e1ecff72b05
+time:2024-12-17T01:49:56.532+0000  filename:taskinstance.py:3132  level_info:INFO  message:Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='successful_dag' AIRFLOW_CTX_TASK_ID='hello_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-17T01:49:54.461143+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-17T01:49:54.461143+00:00'
+time:2024-12-17T01:49:56.532+0000  filename:taskinstance.py:731  level_info:INFO  message:::endgroup::
+time:2024-12-17T01:49:56.540+0000  filename:python.py:240  level_info:INFO  message:Done. Returned value was: Hello world!
+time:2024-12-17T01:49:56.551+0000  filename:taskinstance.py:340  level_info:INFO  message:::group::Post task execution logs
+time:2024-12-17T01:49:56.551+0000  filename:taskinstance.py:352  level_info:INFO  message:Marking task as SUCCESS. dag_id=successful_dag, task_id=hello_task, run_id=manual__2024-12-17T01:49:54.461143+00:00, execution_date=20241217T014954, start_date=20241217T014956, end_date=20241217T014956
+time:2024-12-17T01:49:56.563+0000  filename:local_task_job_runner.py:266  level_info:INFO  message:Task exited with return code 0
+time:2024-12-17T01:49:56.571+0000  filename:taskinstance.py:3895  level_info:INFO  message:0 downstream tasks scheduled from follow-on schedule check
+time:2024-12-17T01:49:56.573+0000  filename:local_task_job_runner.py:245  level_info:INFO  message:::endgroup::
+time:2024-12-17T03:16:35.763+0000  filename:local_task_job_runner.py:123  level_info:INFO  message:::group::Pre task execution logs
+time:2024-12-17T03:16:35.774+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: successful_dag.hello_task manual__2024-12-17T03:16:34.384536+00:00 [queued]>
+time:2024-12-17T03:16:35.777+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: successful_dag.hello_task manual__2024-12-17T03:16:34.384536+00:00 [queued]>
+time:2024-12-17T03:16:35.777+0000  filename:taskinstance.py:2866  level_info:INFO  message:Starting attempt 1 of 2
+time:2024-12-17T03:16:35.785+0000  filename:taskinstance.py:2889  level_info:INFO  message:Executing <Task(PythonOperator): hello_task> on 2024-12-17 03:16:34.384536+00:00
+time:2024-12-17T03:16:35.788+0000  filename:standard_task_runner.py:72  level_info:INFO  message:Started process 340 to run task
+time:2024-12-17T03:16:35.790+0000  filename:standard_task_runner.py:104  level_info:INFO  message:Running: ['***', 'tasks', 'run', 'successful_dag', 'hello_task', 'manual__2024-12-17T03:16:34.384536+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/success_dag.py', '--cfg-path', '/tmp/tmpn6ymgmhi']
+time:2024-12-17T03:16:35.791+0000  filename:standard_task_runner.py:105  level_info:INFO  message:Job 62: Subtask hello_task
+time:2024-12-17T03:16:35.820+0000  filename:task_command.py:467  level_info:INFO  message:Running <TaskInstance: successful_dag.hello_task manual__2024-12-17T03:16:34.384536+00:00 [running]> on host 3b87a6f2d648
+time:2024-12-17T03:16:35.863+0000  filename:taskinstance.py:3132  level_info:INFO  message:Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='successful_dag' AIRFLOW_CTX_TASK_ID='hello_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-17T03:16:34.384536+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-17T03:16:34.384536+00:00'
+time:2024-12-17T03:16:35.863+0000  filename:taskinstance.py:731  level_info:INFO  message:::endgroup::
+time:2024-12-17T03:16:35.881+0000  filename:python.py:240  level_info:INFO  message:Done. Returned value was: Hello world!
+time:2024-12-17T03:16:35.893+0000  filename:taskinstance.py:340  level_info:INFO  message:::group::Post task execution logs
+time:2024-12-17T03:16:35.893+0000  filename:taskinstance.py:352  level_info:INFO  message:Marking task as SUCCESS. dag_id=successful_dag, task_id=hello_task, run_id=manual__2024-12-17T03:16:34.384536+00:00, execution_date=20241217T031634, start_date=20241217T031635, end_date=20241217T031635
+time:2024-12-17T03:16:35.930+0000  filename:local_task_job_runner.py:266  level_info:INFO  message:Task exited with return code 0
+time:2024-12-17T03:16:35.941+0000  filename:taskinstance.py:3895  level_info:INFO  message:0 downstream tasks scheduled from follow-on schedule check
+time:2024-12-17T03:16:35.943+0000  filename:local_task_job_runner.py:245  level_info:INFO  message:::endgroup::
+time:2024-12-17T03:18:49.897+0000  filename:local_task_job_runner.py:123  level_info:INFO  message:::group::Pre task execution logs
+time:2024-12-17T03:18:49.908+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: successful_dag.hello_task manual__2024-12-17T03:18:48.065822+00:00 [queued]>
+time:2024-12-17T03:18:49.912+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: successful_dag.hello_task manual__2024-12-17T03:18:48.065822+00:00 [queued]>
+time:2024-12-17T03:18:49.913+0000  filename:taskinstance.py:2866  level_info:INFO  message:Starting attempt 1 of 2
+time:2024-12-17T03:18:49.942+0000  filename:taskinstance.py:2889  level_info:INFO  message:Executing <Task(PythonOperator): hello_task> on 2024-12-17 03:18:48.065822+00:00
+time:2024-12-17T03:18:49.945+0000  filename:standard_task_runner.py:72  level_info:INFO  message:Started process 68 to run task
+time:2024-12-17T03:18:49.947+0000  filename:standard_task_runner.py:104  level_info:INFO  message:Running: ['***', 'tasks', 'run', 'successful_dag', 'hello_task', 'manual__2024-12-17T03:18:48.065822+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/success_dag.py', '--cfg-path', '/tmp/tmpv7wh780g']
+time:2024-12-17T03:18:49.949+0000  filename:standard_task_runner.py:105  level_info:INFO  message:Job 65: Subtask hello_task
+time:2024-12-17T03:18:49.979+0000  filename:task_command.py:467  level_info:INFO  message:Running <TaskInstance: successful_dag.hello_task manual__2024-12-17T03:18:48.065822+00:00 [running]> on host 510d0eb75a2b
+time:2024-12-17T03:18:50.022+0000  filename:taskinstance.py:3132  level_info:INFO  message:Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='successful_dag' AIRFLOW_CTX_TASK_ID='hello_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-17T03:18:48.065822+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-17T03:18:48.065822+00:00'
+time:2024-12-17T03:18:50.022+0000  filename:taskinstance.py:731  level_info:INFO  message:::endgroup::
+time:2024-12-17T03:18:50.038+0000  filename:python.py:240  level_info:INFO  message:Done. Returned value was: Hello world!
+time:2024-12-17T03:18:50.049+0000  filename:taskinstance.py:340  level_info:INFO  message:::group::Post task execution logs
+time:2024-12-17T03:18:50.049+0000  filename:taskinstance.py:352  level_info:INFO  message:Marking task as SUCCESS. dag_id=successful_dag, task_id=hello_task, run_id=manual__2024-12-17T03:18:48.065822+00:00, execution_date=20241217T031848, start_date=20241217T031849, end_date=20241217T031850
+time:2024-12-17T03:18:50.084+0000  filename:local_task_job_runner.py:266  level_info:INFO  message:Task exited with return code 0
+time:2024-12-17T03:18:50.092+0000  filename:taskinstance.py:3895  level_info:INFO  message:0 downstream tasks scheduled from follow-on schedule check
+time:2024-12-17T03:18:50.095+0000  filename:local_task_job_runner.py:245  level_info:INFO  message:::endgroup::
+time:2024-12-17T03:20:37.537+0000  filename:local_task_job_runner.py:123  level_info:INFO  message:::group::Pre task execution logs
+time:2024-12-17T03:20:37.545+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: successful_dag.hello_task manual__2024-12-17T03:20:35.766262+00:00 [queued]>
+time:2024-12-17T03:20:37.548+0000  filename:taskinstance.py:2613  level_info:INFO  message:Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: successful_dag.hello_task manual__2024-12-17T03:20:35.766262+00:00 [queued]>
+time:2024-12-17T03:20:37.549+0000  filename:taskinstance.py:2866  level_info:INFO  message:Starting attempt 1 of 2
+time:2024-12-17T03:20:37.556+0000  filename:taskinstance.py:2889  level_info:INFO  message:Executing <Task(PythonOperator): hello_task> on 2024-12-17 03:20:35.766262+00:00
+time:2024-12-17T03:20:37.559+0000  filename:standard_task_runner.py:72  level_info:INFO  message:Started process 210 to run task
+time:2024-12-17T03:20:37.561+0000  filename:standard_task_runner.py:104  level_info:INFO  message:Running: ['***', 'tasks', 'run', 'successful_dag', 'hello_task', 'manual__2024-12-17T03:20:35.766262+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/success_dag.py', '--cfg-path', '/tmp/tmphz5a7c14']
+time:2024-12-17T03:20:37.562+0000  filename:standard_task_runner.py:105  level_info:INFO  message:Job 66: Subtask hello_task
+time:2024-12-17T03:20:37.583+0000  filename:task_command.py:467  level_info:INFO  message:Running <TaskInstance: successful_dag.hello_task manual__2024-12-17T03:20:35.766262+00:00 [running]> on host 510d0eb75a2b
+time:2024-12-17T03:20:37.621+0000  filename:taskinstance.py:3132  level_info:INFO  message:Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='successful_dag' AIRFLOW_CTX_TASK_ID='hello_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-17T03:20:35.766262+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-17T03:20:35.766262+00:00'
+time:2024-12-17T03:20:37.621+0000  filename:taskinstance.py:731  level_info:INFO  message:::endgroup::
+time:2024-12-17T03:20:37.630+0000  filename:python.py:240  level_info:INFO  message:Done. Returned value was: Hello world!
+time:2024-12-17T03:20:37.641+0000  filename:taskinstance.py:340  level_info:INFO  message:::group::Post task execution logs
+time:2024-12-17T03:20:37.641+0000  filename:taskinstance.py:352  level_info:INFO  message:Marking task as SUCCESS. dag_id=successful_dag, task_id=hello_task, run_id=manual__2024-12-17T03:20:35.766262+00:00, execution_date=20241217T032035, start_date=20241217T032037, end_date=20241217T032037
+time:2024-12-17T03:20:37.659+0000  filename:local_task_job_runner.py:266  level_info:INFO  message:Task exited with return code 0
+time:2024-12-17T03:20:37.668+0000  filename:taskinstance.py:3895  level_info:INFO  message:0 downstream tasks scheduled from follow-on schedule check
+time:2024-12-17T03:20:37.670+0000  filename:local_task_job_runner.py:245  level_info:INFO  message:::endgroup::
