@@ -1,6 +1,6 @@
 # Log system 
 
-```
+```plaintext
     Extract logs using fluetbit to Loki and visualize by grafana
 ```
 
