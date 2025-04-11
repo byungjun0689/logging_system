@@ -1,0 +1,54 @@
+service:
+  enabled: true
+  type: NodePort
+  
+  port: 80
+  targetPort: 3000
+  nodePort: 30011
+    # targetPort: 4181 To be used with a proxy extraContainer
+  ## Service annotations. Can be templated.
+  annotations: {}
+  labels: {}
+  portName: service
+  # Adds the appProtocol field to the service. This allows to work with istio protocol selection. Ex: "http" or "tcp"
+  appProtocol: ""
+  sessionAffinity: ""
+
+nodeSelector: 
+  app: monitoring
+  env: dev
+
+# Administrator credentials when not using an existing secret (see below)
+adminUser: admin
+# adminPassword: strongpassword
+
+# Use an existing secret for the admin user.
+admin:
+  existingSecret: "my-grafana-secret"
+  userKey: admin-user
+  passwordKey: admin-password
+
+sidecar:
+  datasources:
+    label: ""
+    labelValue: ""
+    enabled: true
+    maxLines: 1000
+  dashboards:
+    enabled: true   # ✅ 반드시 true
+    label: grafana_dashboard
+    labelValue: "1"
+    searchNamespace: ALL
+
+datasources:
+  datasources.yaml:
+    apiVersion: 1
+    datasources:
+    - name: Loki
+      type: loki
+      access: proxy
+      url: http://loki-gateway
+      jsonData:
+        httpHeaderName1: "X-Scope-OrgID"
+      secureJsonData:
+        httpHeaderValue1: "default"     # 또는 airflow, yarn 등
