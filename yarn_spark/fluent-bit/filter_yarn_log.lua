@@ -101,3 +101,29 @@ function filter_khc_spark_application_info(tag, timestmap, record)
     end
     
 end
+
+function filter_khc_hivemetastore_log(tag, timestamp, record)
+    local log_message = record["log"]
+    -- Pattern: 2025-05-30T05:09:39,773  INFO [pool-6-thread-1] metastore.ObjectStore: Initialized ObjectStore
+    local log_pattern = "^(%d%d%d%d%-%d%d%-%d%d)T(%d%d:%d%d:%d%d),(%d+)%s+(%u+)%s+%[([^%]]+)%]%s+([%w%.]+):%s+(.+)"
+    local date, time, ms, level, thread, logger, message = string.match(log_message, log_pattern)
+
+    -- Get current date and time
+
+    if date and time and level and thread and logger and message then
+        record["log_date"] = date
+        record["log_time"] = time
+        record["log_datetime"] = date .. " " .. time
+
+        record["level_info"] = level
+        record["thread"] = thread
+        record["logger"] = logger
+        record["message"] = message
+        record["log"] = nil
+        
+        return 1, timestamp, record
+    else
+
+        return -1, timestamp, record
+    end
+end
