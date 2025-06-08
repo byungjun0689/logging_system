@@ -1,0 +1,53 @@
+# values.yaml
+
+# RBAC (Role-Based Access Control) 설정
+# 클러스터 전체 이벤트를 수집하려면 cluster-wide 권한이 필요합니다.
+rbac:
+  ## @param rbac.create Create the RBAC roles for API accessibility
+  ##
+  create: true
+  ## @param rbac.rules [array] List of rules for the cluster role
+  ##
+  rules:
+    - apiGroups: ["*"]
+      resources: ["*"]
+      verbs: ["get", "watch", "list"]
+
+# 로그 수집 레벨 및 형식 설정
+config:
+  logLevel: debug # debug, info, warn, error
+  logFormat: json # text, json
+
+  # 수집할 이벤트 종류 설정 (선택 사항, 기본적으로 모든 이벤트 수집)
+  # eventSources:
+  #   - "events.k8s.io/v1.Event" # 최신 Kubernetes 버전
+  #   - "v1.Event" # 이전 Kubernetes 버전
+
+  # 라우터 설정: Loki로 이벤트 전송
+  # receivers 배열 안에 Loki 설정을 추가합니다.
+  receivers:
+    - name: "loki-receiver" # 임의의 수신기 이름
+      loki:
+        streamLabels:
+          app: "kubernetes-event-exporter"
+          service: "event-exporter"
+        url: http://loki-gateway.monitoring.svc.cluster.local/loki/api/v1/push
+    - name: "stdout-dumper" # stdout으로 출력할 새 수신기
+      stdout: {} # stdout 수신기는 보통 간단한 설정만 필요합니다.
+      layout:
+        message: "{{ .Message }}"
+        reason: "{{ .Reason }}"
+        type: "{{ .Type }}"
+        count: "{{ .Count }}"
+        kind: "{{ .InvolvedObject.Kind }}"
+        name: "{{ .InvolvedObject.Name }}"
+        namespace: "{{ .Namespace }}"
+        component: "{{ .Source.Component }}"
+        host: "{{ .Source.Host }}"
+
+  route:
+    routes:
+      - match: [] # 빈 배열로 설정하여 모든 이벤트를 매칭합니다.
+        receivers: 
+          #- "loki-receiver"
+          - "stdout-dumper" # 동시에 stdout-dumper 수신기로도 보냅니다.

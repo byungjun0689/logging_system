@@ -1,4 +1,7 @@
 loki:
+  nodeSelector:
+    app: monitoring
+    env: dev
   schemaConfig:
     configs:
       - from: "2024-04-01"
@@ -78,3 +81,21 @@ gateway:
     type: NodePort
     nodePort: 30012
     
+
+lokiCanary:
+  enabled: true
+  nodeSelector:
+    app: monitoring
+    env: dev
+
+resultsCache:
+  enabled: true
+  nodeSelector:
+    app: monitoring
+    env: dev
+
+chunksCache:
+  enabled: true
+  nodeSelector:
+    app: monitoring
+    env: dev
